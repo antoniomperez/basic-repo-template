@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.1.1](https://github.com/antoniomperez/basic-repo-template/compare/v0.1.0...v0.1.1) (2021-12-11)
+
+
+### Features
+
+* add Conventinal Commits Badge Image ([40d5929](https://github.com/antoniomperez/basic-repo-template/commit/40d59293ea28d064b7bfd562c700f481fdfafdc1))
+
 ## 0.1.0 (2021-12-11)
 
 
