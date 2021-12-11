@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.1.2](https://github.com/antoniomperez/basic-repo-template/compare/v0.1.1...v0.1.2) (2021-12-11)
+
+
+### Features
+
+* add AWS CDK App Installation ([ee84e1c](https://github.com/antoniomperez/basic-repo-template/commit/ee84e1cc8cff40357884aefee18f12986ad21440))
+
 ### [0.1.1](https://github.com/antoniomperez/basic-repo-template/compare/v0.1.0...v0.1.1) (2021-12-11)
 
 

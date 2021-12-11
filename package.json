@@ -1,11 +1,15 @@
 {
   "name": "basic-repo-template",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "main": "index.js",
   "repository": "git@github.com:antoniomperez/basic-repo-template.git",
   "author": "Antonio Márquez Pérez <amarquez1980@gmail.com>",
   "license": "MIT",
   "scripts": {
+    "build": "tsc",
+    "watch": "tsc -w",
+    "test": "jest",
+    "cdk": "cdk",
     "commit": "./node_modules/cz-customizable/standalone.js",
     "prepare": "husky install",
     "lint": "eslint --ext .ts,.tsx",
@@ -13,7 +17,14 @@
     "format:write": "prettier --write .",
     "release": "standard-version"
   },
+  "dependencies": {
+    "aws-cdk-lib": "2.1.0",
+    "constructs": "^10.0.0",
+    "source-map-support": "^0.5.16"
+  },
   "devDependencies": {
+    "@types/jest": "^26.0.10",
+    "@types/node": "10.17.27",
     "@typescript-eslint/eslint-plugin": "^5.6.0",
     "@typescript-eslint/parser": "^5.6.0",
     "cz-conventional-changelog": "3.3.0",
@@ -22,8 +33,13 @@
     "eslint-config-airbnb-base": "^15.0.0",
     "eslint-plugin-import": "^2.25.3",
     "husky": "^7.0.0",
+    "jest": "^26.4.2",
     "prettier": "2.5.1",
-    "standard-version": "^9.3.2"
+    "standard-version": "^9.3.2",
+    "ts-jest": "^26.2.0",
+    "aws-cdk": "2.1.0",
+    "ts-node": "^9.0.0",
+    "typescript": "~3.9.7"
   },
   "config": {
     "commitizen": {
